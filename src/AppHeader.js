@@ -13,7 +13,7 @@ import AdbIcon from '@mui/icons-material/Adb';
 
 const pages = ['About', 'Resume', 'Portfolio', 'Testimonials', 'Contact'];
 
-function ResponsiveAppBar() {
+function AppHeader() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
   const handleOpenNavMenu = (event) => {
@@ -113,4 +113,4 @@ function ResponsiveAppBar() {
     </AppBar>
   );
 }
-export default ResponsiveAppBar;
+export default AppHeader;
