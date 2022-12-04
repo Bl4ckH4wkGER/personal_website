@@ -13,7 +13,7 @@ import AdbIcon from '@mui/icons-material/Adb';
 
 const pages = ['About', 'Resume', 'Portfolio', 'Testimonials', 'Contact'];
 
-function AppHeader() {
+function Header() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
   const handleOpenNavMenu = (event) => {
@@ -113,4 +113,4 @@ function AppHeader() {
     </AppBar>
   );
 }
-export default AppHeader;
+export default Header;
