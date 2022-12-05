@@ -6,7 +6,7 @@ function Testemonial() {
   return (
     <Container>
       <Box>
-        <h2>Testemonial section</h2>
+        <h2>Testemonials</h2>
       </Box>
     </Container>
   );
