@@ -3,6 +3,7 @@ import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
+import Fab from '@mui/material/Fab';
 import IconButton from '@mui/material/IconButton';
 
 import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
@@ -35,9 +36,9 @@ function introSection() {
           </div>
         </Box>
       </Container>
-      <Button>
+      <Fab color="primary" aria-label="down">
         <ArrowCircleDownIcon />
-      </Button>
+      </Fab>
     </>
   );
 }
