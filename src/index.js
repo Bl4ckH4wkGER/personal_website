@@ -9,10 +9,9 @@ import Resume from './Resume';
 import Portfolio from './Portfolio';
 import Testemonial from './Testemonial';
 import Contact from './Contact';
+import Footer from './Footer';
 
 import CssBaseline from '@mui/material/CssBaseline';
-import Divider from '@mui/material/Divider';
-import Chip from '@mui/material/Chip';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,25 +19,11 @@ root.render(
     <CssBaseline />
     <Header />
     <Intro />
-    <Divider>
-      <Chip label="About" />
-    </Divider>
     <About />
-    <Divider>
-      <Chip label="Resume" />
-    </Divider>
     <Resume />
-    <Divider>
-      <Chip label="Portfolio" />
-    </Divider>
     <Portfolio />
-    <Divider>
-      <Chip label="Testemonial" />
-    </Divider>
     <Testemonial />
-    <Divider>
-      <Chip label="Contact" />
-    </Divider>
     <Contact />
+    <Footer />
   </React.Fragment>
 );
