@@ -1,4 +1,6 @@
 import * as React from 'react';
+import './Resume.css';
+
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
 import Avatar from '@mui/material/Avatar';
@@ -28,7 +30,7 @@ function Resume() {
         <div>
           <Stack direction="row" spacing={2}>
             <Avatar alt="Geocaching HQ icon" src={GeocachingHQ} sx={{ width: 24, height: 24 }} />
-            <p>Geocaching HQ - Feb 2021 - Jul 2022</p>
+            <p>Geocaching HQ - Feb 2021 to Jul 2022</p>
           </Stack>
           <p>Details go here</p>
         </div>
@@ -36,7 +38,7 @@ function Resume() {
         <div>
           <Stack direction="row" spacing={2}>
             <Avatar alt="Geocaching HQ icon" src={GeocachingHQ} sx={{ width: 24, height: 24 }} />
-            <p>Geocaching HQ - Dec 2019 - Jul 2021</p>
+            <p>Geocaching HQ - Dec 2019 to Jul 2021</p>
           </Stack>
           <p>Details go here</p>
         </div>
@@ -44,7 +46,7 @@ function Resume() {
         <div>
           <Stack direction="row" spacing={2}>
             <Avatar alt="Geocaching HQ icon" src={GeocachingHQ} sx={{ width: 24, height: 24 }} />
-            <p>Geocaching HQ - Jan 2018 - Dec 2019</p>
+            <p>Geocaching HQ - Jan 2018 to Dec 2019</p>
           </Stack>
           <p>Details go here</p>
         </div>
@@ -52,7 +54,7 @@ function Resume() {
         <div>
           <Stack direction="row" spacing={2}>
             <Avatar alt="Geocaching HQ icon" src={GeocachingHQ} sx={{ width: 24, height: 24 }} />
-            <p>Geocaching HQ - Jul 2017 - Jun 2018</p>
+            <p>Geocaching HQ - Jul 2017 to Jun 2018</p>
           </Stack>
           <p>Details go here</p>
         </div>

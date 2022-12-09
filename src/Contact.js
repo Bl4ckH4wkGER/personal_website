@@ -1,4 +1,6 @@
 import * as React from 'react';
+import './Contact.css';
+
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';

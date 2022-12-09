@@ -1,9 +1,10 @@
 import * as React from 'react';
+import './Footer.css';
+
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Stack from '@mui/material/Stack';
 import Fab from '@mui/material/Fab';
-import IconButton from '@mui/material/IconButton';
 
 import ArrowCircleUpIcon from '@mui/icons-material/ArrowCircleUp';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -13,18 +14,26 @@ function Footer() {
   return (
     <>
       <Container maxWidth="sm">
-        <Fab color="primary" aria-label="down">
+        <Fab color="primary" aria-label="up">
           <ArrowCircleUpIcon />
         </Fab>
         <Box>
           <div>
             <Stack direction="row">
-              <IconButton>
+              <a
+                aria-label="Github"
+                href="https://github.com/Bl4ckH4wkGER"
+                target="_blank"
+                rel="noreferrer noopener">
                 <GitHubIcon />
-              </IconButton>
-              <IconButton>
+              </a>
+              <a
+                aria-label="LinkedIn"
+                href="https://www.linkedin.com/in/sven-otto/"
+                target="_blank"
+                rel="noreferrer noopener">
                 <LinkedInIcon />
-              </IconButton>
+              </a>
             </Stack>
           </div>
         </Box>

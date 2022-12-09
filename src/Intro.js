@@ -1,10 +1,11 @@
 import * as React from 'react';
+import './Intro.css';
+
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import Fab from '@mui/material/Fab';
-import IconButton from '@mui/material/IconButton';
 
 import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -16,16 +17,31 @@ function introSection() {
       <Container maxWidth="sm">
         <Box sx={{ bgcolor: '#cfe8fc', height: '80vh' }}>
           <h1>I&apos;m Sven Otto.</h1>
-          <p>Something about who I am as a professional.</p>
-          <p>Something about me outside of work.</p>
+          <p>
+            I&apos;m a greater-Seattle based Product Manager, currently working at Geocaching HQ
+            helping migrate our web offering to a modern tech-stack and inspiring outdoor adventure,
+            exploration, and community.
+          </p>
+          <p>
+            In my free time time, you can catch me weightlifting, exploring the great Pacific
+            Northwest, and working on car or house projects.
+          </p>
           <div>
             <Stack direction="row">
-              <IconButton>
+              <a
+                aria-label="Github"
+                href="https://github.com/Bl4ckH4wkGER"
+                target="_blank"
+                rel="noreferrer noopener">
                 <GitHubIcon />
-              </IconButton>
-              <IconButton>
+              </a>
+              <a
+                aria-label="LinkedIn"
+                href="https://www.linkedin.com/in/sven-otto/"
+                target="_blank"
+                rel="noreferrer noopener">
                 <LinkedInIcon />
-              </IconButton>
+              </a>
             </Stack>
           </div>
           <div>
