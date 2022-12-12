@@ -15,7 +15,7 @@ import UW from './images/UW.jpeg';
 
 function Resume() {
   return (
-    <Container>
+    <Container id="resume">
       <Box>
         <h2>Work</h2>
         <h3>Product Manager</h3>

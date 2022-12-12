@@ -7,6 +7,7 @@ import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import CircleIcon from '@mui/icons-material/Circle';
+import { Container } from '@mui/material';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -48,7 +49,7 @@ export default function BasicTabs() {
   };
 
   return (
-    <Box sx={{ width: '100%' }}>
+    <Container id="testemonial" sx={{ width: '80%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
           <Tab icon={<CircleIcon />} {...a11yProps(0)} />
@@ -102,6 +103,6 @@ export default function BasicTabs() {
         </p>
         <p>Katie DiJulio</p>
       </TabPanel>
-    </Box>
+    </Container>
   );
 }

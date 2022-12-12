@@ -6,7 +6,7 @@ import Box from '@mui/material/Box';
 
 function Portfolio() {
   return (
-    <Container>
+    <Container id="portfolio">
       <Box>
         <h2>Portfolio</h2>
         <h3>Web projects</h3>

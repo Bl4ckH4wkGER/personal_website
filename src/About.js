@@ -6,7 +6,7 @@ import Box from '@mui/material/Box';
 
 function About() {
   return (
-    <Container>
+    <Container id="about">
       <Box>
         <img src="path/goes/here" alt="profile image" />
       </Box>

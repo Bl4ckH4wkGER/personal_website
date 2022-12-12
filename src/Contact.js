@@ -10,7 +10,7 @@ import EmailIcon from '@mui/icons-material/Email';
 
 function Contact() {
   return (
-    <Container>
+    <Container id="contact">
       <h2>
         <EmailIcon />
         Get in touch.
