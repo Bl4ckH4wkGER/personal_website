@@ -37,9 +37,6 @@ function About() {
               <b>Location:</b> Poulsbo, WA
             </li>
             <li>
-              <b>Nationality:</b> German
-            </li>
-            <li>
               <b>Study:</b> Friedrich Schiller University
             </li>
             <li>
@@ -47,6 +44,43 @@ function About() {
             </li>
             <li>
               <b>Interests:</b> Weightlifting, cars, horology
+            </li>
+            <li>
+              <b>Top CliftonStrenghts:</b>&nbsp;
+              <a
+                href="https://www.gallup.com/cliftonstrengths/en/252320/responsibility-theme.aspx"
+                target={'_blank'}
+                rel="noreferrer">
+                Responsibility
+              </a>
+              ,&nbsp;
+              <a
+                href="https://www.gallup.com/cliftonstrengths/en/252227/discipline-theme.aspx"
+                target={'_blank'}
+                rel="noreferrer">
+                Discipline
+              </a>
+              ,&nbsp;
+              <a
+                href="https://www.gallup.com/cliftonstrengths/en/252293/learner-theme.aspx"
+                target={'_blank'}
+                rel="noreferrer">
+                Learner
+              </a>
+              ,&nbsp;
+              <a
+                href="https://www.gallup.com/cliftonstrengths/en/252134/achiever-theme.aspx"
+                target={'_blank'}
+                rel="noreferrer">
+                Achiever
+              </a>
+              ,&nbsp;
+              <a
+                href="https://www.gallup.com/cliftonstrengths/en/252239/focus-theme.aspx"
+                target={'_blank'}
+                rel="noreferrer">
+                Focus
+              </a>
             </li>
             <li>
               <b>Employment:</b> Geocaching HQ

@@ -13,7 +13,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 function Footer() {
   return (
     <Container maxWidth="sm">
-      <Fab color="primary" aria-label="up">
+      <Fab color="primary" aria-label="up" href="#intro">
         <ArrowCircleUpIcon />
       </Fab>
       <Box>

@@ -50,7 +50,7 @@ function introSection() {
           </Stack>
         </div>
       </Box>
-      <Fab color="primary" aria-label="down">
+      <Fab color="primary" aria-label="down" href="#about">
         <ArrowCircleDownIcon />
       </Fab>
     </Container>
