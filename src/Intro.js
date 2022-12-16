@@ -45,8 +45,12 @@ function introSection() {
         </div>
         <div>
           <Stack spacing={2} direction="row">
-            <Button variant="outlined">Resume</Button>
-            <Button variant="outlined">Contact</Button>
+            <Button variant="outlined">
+              <a href="#resume">Resume</a>
+            </Button>
+            <Button variant="outlined">
+              <a href="#contact">Contact</a>
+            </Button>
           </Stack>
         </div>
       </Box>
