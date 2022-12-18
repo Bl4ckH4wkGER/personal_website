@@ -1,5 +1,52 @@
 #intro {
   padding-top: 56.5px;
+  background-color: #444;
+}
+
+.introText {
+  color: white;
+}
+
+.socialLinksIntro {
+  color: white;
+  padding: 10px;
+}
+
+.socialLinksIntro:hover {
+  color: orange;
+}
+
+.buttonLinks {
+  color: white;
+  border-radius: 5px;
+  border: 2px solid white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.buttonLinks:hover {
+  color: orange;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid orange;
+}
+
+.downPageArrrow {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  color: white;
+  background-color: #444;
+  border-radius: 25px;
+  border: 2px solid white;
+  padding: 10px;
+}
+
+.downPageArrrow:hover {
+  color: orange;
+  border-radius: 25px;
+  border: 2px solid orange;
 }
 
 /*

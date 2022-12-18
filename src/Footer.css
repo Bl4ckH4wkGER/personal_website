@@ -1,3 +1,36 @@
+.footer {
+  background-color: #444;
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.upPageArrrow {
+  color: white;
+  background-color: #444;
+  border-radius: 25px;
+  border: 2px solid white;
+  padding: 10px;
+}
+
+.upPageArrrow:hover {
+  color: orange;
+  border-radius: 25px;
+  border: 2px solid orange;
+}
+
+.socialLinksFooter {
+  color: white;
+  padding: 10px;
+}
+
+.socialLinksFooter:hover {
+  color: orange;
+}
+
 /*
   Add more custom CSS here
 */
