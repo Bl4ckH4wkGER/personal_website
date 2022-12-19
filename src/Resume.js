@@ -20,7 +20,7 @@ function Resume() {
   return (
     <Container id="resume">
       <Box>
-        <h2>Work</h2>
+        <h2 className="resumeHeadings">Work</h2>
         <h3>Product Manager</h3>
         <div>
           <Stack direction="row" spacing={2}>
@@ -109,7 +109,7 @@ function Resume() {
         </div>
       </Box>
       <Box>
-        <h2>Education</h2>
+        <h2 className="resumeHeadings">Education</h2>
         <h3>Master of Arts</h3>
         <div>
           <Stack direction="row" spacing={2}>
@@ -136,7 +136,7 @@ function Resume() {
         </div>
       </Box>
       <Box>
-        <h2>Certificates</h2>
+        <h2 className="resumeHeadings">Certificates</h2>
         <h3>Certified Scrum Product Owner</h3>
         <div>
           <Stack direction="row" spacing={2}>
@@ -172,7 +172,7 @@ function Resume() {
         </Stack>
       </Box>
       <Box>
-        <h2>Skills</h2>
+        <h2 className="resumeHeadings">Skills</h2>
         <Grid container spacing={2}>
           <Grid xs={6}>
             <h3>Frontend development</h3>

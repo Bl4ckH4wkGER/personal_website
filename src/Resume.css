@@ -2,6 +2,10 @@
   padding-top: 56.5px;
 }
 
+.resumeHeadings {
+  text-decoration: underline orange;
+}
+
 /*
   Add more custom CSS here
 */

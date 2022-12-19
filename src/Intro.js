@@ -2,17 +2,37 @@ import * as React from 'react';
 import './Intro.css';
 
 import Box from '@mui/material/Box';
-import Container from '@mui/material/Container';
 import Stack from '@mui/material/Stack';
 
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
+import HERO from './images/hero.jpg';
+
 function introSection() {
   return (
-    <Container id="intro">
-      {/* <Box className="introText" sx={{ bgcolor: '#cfe8fc', height: '80vh' }}> */}
+    <div id="intro">
+      <Box>
+        <img className="heroImage" src={HERO} alt="Mountain reflecting in an alpine lake" />
+        <p className="heroSource">
+          Photo by{' '}
+          <a
+            className="heroSourceLink"
+            href="https://unsplash.com/@souvenirpixels?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            target={'_blank'}
+            rel="noreferrer">
+            James Wheeler
+          </a>{' '}
+          <a
+            className="heroSourceLink"
+            href="https://unsplash.com/s/photos/outdoor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            target={'_blank'}
+            rel="noreferrer">
+            Unsplash
+          </a>
+        </p>
+      </Box>
       <Box className="introText">
         <h1>I&apos;m Sven Otto.</h1>
         <p>
@@ -25,7 +45,7 @@ function introSection() {
           Northwest, and working on car or house projects.
         </p>
         <div>
-          <Stack direction="row">
+          <Stack className="introStacks" direction="row">
             <a
               className="socialLinksIntro"
               aria-label="Github"
@@ -43,7 +63,7 @@ function introSection() {
               <LinkedInIcon />
             </a>
           </Stack>
-          <Stack spacing={2} direction="row">
+          <Stack className="introStacks" direction="row">
             <a className="buttonLinks" href="#resume">
               Resume
             </a>
@@ -56,7 +76,7 @@ function introSection() {
           </a>
         </div>
       </Box>
-    </Container>
+    </div>
   );
 }
 
