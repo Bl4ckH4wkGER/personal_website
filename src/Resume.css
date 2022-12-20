@@ -1,9 +1,22 @@
 #resume {
-  padding-top: 56.5px;
+  padding-top: 10vh;
 }
 
 .resumeHeadings {
   text-decoration: underline orange;
+}
+
+.work {
+  padding-bottom: 10vh;
+}
+.education {
+  padding-bottom: 10vh;
+}
+.certificates {
+  padding-bottom: 10vh;
+}
+.skills {
+  padding-bottom: 10vh;
 }
 
 .companyLinks {

@@ -19,7 +19,7 @@ import UW from './images/UW.jpeg';
 function Resume() {
   return (
     <Container id="resume">
-      <Box>
+      <Box className="work">
         <h2 className="resumeHeadings">Work</h2>
         <h3>Product Manager</h3>
         <div>
@@ -153,7 +153,7 @@ function Resume() {
           </ul>
         </div>
       </Box>
-      <Box>
+      <Box className="education">
         <h2 className="resumeHeadings">Education</h2>
         <h3>Master of Arts</h3>
         <div>
@@ -198,7 +198,7 @@ function Resume() {
           <p>English and American Studies (Major), Educational Studies (Minor)</p>
         </div>
       </Box>
-      <Box>
+      <Box className="certificates">
         <h2 className="resumeHeadings">Certificates</h2>
         <h3>Certified Scrum Product Owner</h3>
         <div>
@@ -215,39 +215,48 @@ function Resume() {
               - August 2022
             </p>
           </Stack>
+          <p> </p>
         </div>
         <h3>Game Thinking Masterclass</h3>
-        <Stack direction="row" spacing={2}>
-          <Avatar
-            alt="Game Thinking Academy icon"
-            src={GameThinkingAcademy}
-            sx={{ width: 24, height: 24 }}
-          />
-          <p>
-            <a
-              className="companyLinks"
-              href="https://www.gamethinkingacademy.io/"
-              target="_blank"
-              rel="noreferrer noopener">
-              Game Thinking Academy
-            </a>{' '}
-            - April 2022
-          </p>
-        </Stack>
+        <div>
+          <Stack direction="row" spacing={2}>
+            <Avatar
+              alt="Game Thinking Academy icon"
+              src={GameThinkingAcademy}
+              sx={{ width: 24, height: 24 }}
+            />
+            <p>
+              <a
+                className="companyLinks"
+                href="https://www.gamethinkingacademy.io/"
+                target="_blank"
+                rel="noreferrer noopener">
+                Game Thinking Academy
+              </a>{' '}
+              - April 2022
+            </p>
+          </Stack>
+          <p> </p>
+        </div>
+
         <h3>Product Management</h3>
-        <Stack direction="row" spacing={2}>
-          <Avatar alt="General Assembly icon" src={GA} sx={{ width: 24, height: 24 }} />
-          <p>
-            <a
-              className="companyLinks"
-              href="https://generalassemb.ly/"
-              target="_blank"
-              rel="noreferrer noopener">
-              General Assembly
-            </a>{' '}
-            - April 2021
-          </p>
-        </Stack>
+        <div>
+          <Stack direction="row" spacing={2}>
+            <Avatar alt="General Assembly icon" src={GA} sx={{ width: 24, height: 24 }} />
+            <p>
+              <a
+                className="companyLinks"
+                href="https://generalassemb.ly/"
+                target="_blank"
+                rel="noreferrer noopener">
+                General Assembly
+              </a>{' '}
+              - April 2021
+            </p>
+          </Stack>
+          <p> </p>
+        </div>
+
         <h3>Certified Scrum Master</h3>
         <div>
           <Stack direction="row" spacing={2}>
@@ -263,23 +272,27 @@ function Resume() {
               - Novenber 2020
             </p>
           </Stack>
+          <p> </p>
         </div>
         <h3>Full-stack development with JavaScript </h3>
-        <Stack direction="row" spacing={2}>
-          <Avatar alt="University of Washington icon" src={UW} sx={{ width: 24, height: 24 }} />
-          <p>
-            <a
-              className="companyLinks"
-              href="https://www.washington.edu/"
-              target="_blank"
-              rel="noreferrer noopener">
-              University of Washington
-            </a>{' '}
-            - September 2020
-          </p>
-        </Stack>
+        <div>
+          <Stack direction="row" spacing={2}>
+            <Avatar alt="University of Washington icon" src={UW} sx={{ width: 24, height: 24 }} />
+            <p>
+              <a
+                className="companyLinks"
+                href="https://www.washington.edu/"
+                target="_blank"
+                rel="noreferrer noopener">
+                University of Washington
+              </a>{' '}
+              - September 2020
+            </p>
+          </Stack>
+          <p> </p>
+        </div>
       </Box>
-      <Box>
+      <Box className="skills">
         <h2 className="resumeHeadings">Skills</h2>
         <Grid container spacing={2}>
           <Grid xs={6}>
