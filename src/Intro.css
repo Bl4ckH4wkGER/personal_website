@@ -1,5 +1,5 @@
 .heroImage {
-  max-width: 100vw;
+  width: 100vw;
   height: auto;
   /* opacity: 0.5; */
   z-index: 999;
@@ -84,5 +84,25 @@
 }
 
 /*
-  Add more custom CSS here
+  Mobile responsive design below
 */
+
+@media screen and (max-width: 600px) {
+  .heroImage {
+    /* width: 100vh; */
+    height: 100vh;
+    /* opacity: 0.5; */
+    z-index: 999;
+  }
+
+  .introText {
+    width: 80%;
+    top: 15%;
+    left: 10%;
+  }
+  .downPageArrrow {
+    position: absolute;
+    top: 100%;
+    left: 43%;
+  }
+}

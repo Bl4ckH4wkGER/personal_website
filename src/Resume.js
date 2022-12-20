@@ -25,7 +25,16 @@ function Resume() {
         <div>
           <Stack direction="row" spacing={2}>
             <Avatar alt="Geocaching HQ icon" src={GeocachingHQ} sx={{ width: 24, height: 24 }} />
-            <p>Geocaching HQ - Jul 2022 to Present</p>
+            <p>
+              <a
+                className="companyLinks"
+                href="https://www.geocaching.com/"
+                target="_blank"
+                rel="noreferrer noopener">
+                Geocaching HQ
+              </a>{' '}
+              - Jul 2022 to Present
+            </p>
           </Stack>
           <ul>
             <li>
@@ -42,7 +51,16 @@ function Resume() {
         <div>
           <Stack direction="row" spacing={2}>
             <Avatar alt="Geocaching HQ icon" src={GeocachingHQ} sx={{ width: 24, height: 24 }} />
-            <p>Geocaching HQ - Feb 2021 to Jul 2022</p>
+            <p>
+              <a
+                className="companyLinks"
+                href="https://www.geocaching.com/"
+                target="_blank"
+                rel="noreferrer noopener">
+                Geocaching HQ
+              </a>{' '}
+              - Feb 2021 to Jul 2022
+            </p>
           </Stack>
           <ul>
             <li>Completed AR technology POC, spearheaded technology innovation and learnings</li>
@@ -71,7 +89,16 @@ function Resume() {
         <div>
           <Stack direction="row" spacing={2}>
             <Avatar alt="Geocaching HQ icon" src={GeocachingHQ} sx={{ width: 24, height: 24 }} />
-            <p>Geocaching HQ - Dec 2019 to Jul 2021</p>
+            <p>
+              <a
+                className="companyLinks"
+                href="https://www.geocaching.com/"
+                target="_blank"
+                rel="noreferrer noopener">
+                Geocaching HQ
+              </a>{' '}
+              - Dec 2019 to Jul 2021
+            </p>
           </Stack>
           <ul>
             <li>Led team overseeing 300 Community Volunteers</li>
@@ -86,7 +113,16 @@ function Resume() {
         <div>
           <Stack direction="row" spacing={2}>
             <Avatar alt="Geocaching HQ icon" src={GeocachingHQ} sx={{ width: 24, height: 24 }} />
-            <p>Geocaching HQ - Jan 2018 to Dec 2019</p>
+            <p>
+              <a
+                className="companyLinks"
+                href="https://www.geocaching.com/"
+                target="_blank"
+                rel="noreferrer noopener">
+                Geocaching HQ
+              </a>{' '}
+              - Jan 2018 to Dec 2019
+            </p>
           </Stack>
           <ul>
             <li>Provided bilingual customer service</li>
@@ -99,7 +135,16 @@ function Resume() {
         <div>
           <Stack direction="row" spacing={2}>
             <Avatar alt="Geocaching HQ icon" src={GeocachingHQ} sx={{ width: 24, height: 24 }} />
-            <p>Geocaching HQ - Jul 2017 to Jun 2018</p>
+            <p>
+              <a
+                className="companyLinks"
+                href="https://www.geocaching.com/"
+                target="_blank"
+                rel="noreferrer noopener">
+                Geocaching HQ
+              </a>{' '}
+              - Jul 2017 to Jun 2018
+            </p>
           </Stack>
           <ul>
             <li>Provided trilingual customer service</li>
@@ -118,7 +163,16 @@ function Resume() {
               src={FSU}
               sx={{ width: 24, height: 24 }}
             />
-            <p>Friedrich Schiller University Jena - 2016</p>
+            <p>
+              <a
+                className="companyLinks"
+                href="https://www.uni-jena.de/en"
+                target="_blank"
+                rel="noreferrer noopener">
+                Friedrich Schiller University Jena
+              </a>{' '}
+              - 2016
+            </p>
           </Stack>
           <p>English and American Studies</p>
         </div>
@@ -130,7 +184,16 @@ function Resume() {
               src={FSU}
               sx={{ width: 24, height: 24 }}
             />
-            <p>Friedrich Schiller University Jena - 2014</p>
+            <p>
+              <a
+                className="companyLinks"
+                href="https://www.uni-jena.de/en"
+                target="_blank"
+                rel="noreferrer noopener">
+                Friedrich Schiller University Jena
+              </a>{' '}
+              - 2014
+            </p>
           </Stack>
           <p>English and American Studies (Major), Educational Studies (Minor)</p>
         </div>
@@ -141,7 +204,16 @@ function Resume() {
         <div>
           <Stack direction="row" spacing={2}>
             <Avatar alt="Scrum Alliance icon" src={ScrumAlliance} sx={{ width: 24, height: 24 }} />
-            <p>Scrum Alliance, August 2022</p>
+            <p>
+              <a
+                className="companyLinks"
+                href="https://www.scrumalliance.org/"
+                target="_blank"
+                rel="noreferrer noopener">
+                Scrum Alliance
+              </a>{' '}
+              - August 2022
+            </p>
           </Stack>
         </div>
         <h3>Game Thinking Masterclass</h3>
@@ -151,24 +223,60 @@ function Resume() {
             src={GameThinkingAcademy}
             sx={{ width: 24, height: 24 }}
           />
-          <p>Game Thinking Academy, April 2022</p>
+          <p>
+            <a
+              className="companyLinks"
+              href="https://www.gamethinkingacademy.io/"
+              target="_blank"
+              rel="noreferrer noopener">
+              Game Thinking Academy
+            </a>{' '}
+            - April 2022
+          </p>
         </Stack>
         <h3>Product Management</h3>
         <Stack direction="row" spacing={2}>
           <Avatar alt="General Assembly icon" src={GA} sx={{ width: 24, height: 24 }} />
-          <p>General Assembly, April 2021</p>
+          <p>
+            <a
+              className="companyLinks"
+              href="https://generalassemb.ly/"
+              target="_blank"
+              rel="noreferrer noopener">
+              General Assembly
+            </a>{' '}
+            - April 2021
+          </p>
         </Stack>
         <h3>Certified Scrum Master</h3>
         <div>
           <Stack direction="row" spacing={2}>
             <Avatar alt="Scrum Alliance icon" src={ScrumAlliance} sx={{ width: 24, height: 24 }} />
-            <p>Scrum Alliance, Novenber 2020</p>
+            <p>
+              <a
+                className="companyLinks"
+                href="https://www.scrumalliance.org/"
+                target="_blank"
+                rel="noreferrer noopener">
+                Scrum Alliance
+              </a>{' '}
+              - Novenber 2020
+            </p>
           </Stack>
         </div>
         <h3>Full-stack development with JavaScript </h3>
         <Stack direction="row" spacing={2}>
           <Avatar alt="University of Washington icon" src={UW} sx={{ width: 24, height: 24 }} />
-          <p>University of Washington, September 2020</p>
+          <p>
+            <a
+              className="companyLinks"
+              href="https://www.washington.edu/"
+              target="_blank"
+              rel="noreferrer noopener">
+              University of Washington
+            </a>{' '}
+            - September 2020
+          </p>
         </Stack>
       </Box>
       <Box>

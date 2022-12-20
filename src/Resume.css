@@ -6,6 +6,16 @@
   text-decoration: underline orange;
 }
 
+.companyLinks {
+  color: orange;
+  text-decoration: none;
+}
+
+.companyLinks:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
 /*
   Add more custom CSS here
 */
