@@ -2,6 +2,16 @@
   padding-top: 10vh;
 }
 
+.contactLinks {
+  color: orange;
+  text-decoration: none;
+}
+
+.contactLinks:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
 /*
   Add more custom CSS here
 */

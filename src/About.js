@@ -55,6 +55,7 @@ function About() {
               <b>Top CliftonStrengths:</b>&nbsp;
               <span className="desktopClifton">
                 <a
+                  className="cliftonLinks"
                   href="https://www.gallup.com/cliftonstrengths/en/252320/responsibility-theme.aspx"
                   target={'_blank'}
                   rel="noreferrer">
@@ -62,6 +63,7 @@ function About() {
                 </a>
                 ,&nbsp;
                 <a
+                  className="cliftonLinks"
                   href="https://www.gallup.com/cliftonstrengths/en/252227/discipline-theme.aspx"
                   target={'_blank'}
                   rel="noreferrer">
@@ -69,6 +71,7 @@ function About() {
                 </a>
                 ,&nbsp;
                 <a
+                  className="cliftonLinks"
                   href="https://www.gallup.com/cliftonstrengths/en/252293/learner-theme.aspx"
                   target={'_blank'}
                   rel="noreferrer">
@@ -76,6 +79,7 @@ function About() {
                 </a>
                 ,&nbsp;
                 <a
+                  className="cliftonLinks"
                   href="https://www.gallup.com/cliftonstrengths/en/252134/achiever-theme.aspx"
                   target={'_blank'}
                   rel="noreferrer">
@@ -83,6 +87,7 @@ function About() {
                 </a>
                 ,&nbsp;
                 <a
+                  className="cliftonLinks"
                   href="https://www.gallup.com/cliftonstrengths/en/252239/focus-theme.aspx"
                   target={'_blank'}
                   rel="noreferrer">
@@ -93,6 +98,7 @@ function About() {
                 <ul>
                   <li>
                     <a
+                      className="cliftonLinks"
                       href="https://www.gallup.com/cliftonstrengths/en/252320/responsibility-theme.aspx"
                       target={'_blank'}
                       rel="noreferrer">
@@ -101,6 +107,7 @@ function About() {
                   </li>
                   <li>
                     <a
+                      className="cliftonLinks"
                       href="https://www.gallup.com/cliftonstrengths/en/252227/discipline-theme.aspx"
                       target={'_blank'}
                       rel="noreferrer">
@@ -109,6 +116,7 @@ function About() {
                   </li>
                   <li>
                     <a
+                      className="cliftonLinks"
                       href="https://www.gallup.com/cliftonstrengths/en/252293/learner-theme.aspx"
                       target={'_blank'}
                       rel="noreferrer">
@@ -117,6 +125,7 @@ function About() {
                   </li>
                   <li>
                     <a
+                      className="cliftonLinks"
                       href="https://www.gallup.com/cliftonstrengths/en/252134/achiever-theme.aspx"
                       target={'_blank'}
                       rel="noreferrer">
@@ -125,6 +134,7 @@ function About() {
                   </li>
                   <li>
                     <a
+                      className="cliftonLinks"
                       href="https://www.gallup.com/cliftonstrengths/en/252239/focus-theme.aspx"
                       target={'_blank'}
                       rel="noreferrer">

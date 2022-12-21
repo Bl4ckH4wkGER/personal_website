@@ -44,22 +44,31 @@ function Contact() {
           availble to talk Product Management, Agile, or other shared interests.
         </p>
         <Stack direction="column">
-          <a href="mailto:svenotto3110@gmail.com">
+          <a className="contactLinks" href="mailto:svenotto3110@gmail.com">
             <EmailIcon />
             svenotto3110@gmail.com
           </a>
           <a
+            className="contactLinks"
             href="https://www.google.com/maps/place/Poulsbo,+WA+98370/@47.7420916,-122.6788777,13z"
             target={'_blank'}
             rel="noreferrer">
             <LocationOnIcon />
             Poulsbo, WA
           </a>
-          <a href="https://www.linkedin.com/in/sven-otto" target={'_blank'} rel="noreferrer">
+          <a
+            className="contactLinks"
+            href="https://www.linkedin.com/in/sven-otto"
+            target={'_blank'}
+            rel="noreferrer">
             <LinkedInIcon />
             Sven Otto
           </a>
-          <a href="https://github.com/Bl4ckH4wkGER" target={'_blank'} rel="noreferrer">
+          <a
+            className="contactLinks"
+            href="https://github.com/Bl4ckH4wkGER"
+            target={'_blank'}
+            rel="noreferrer">
             <GitHubIcon />
             Bl4ckH4wkGER
           </a>

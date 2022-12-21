@@ -25,7 +25,7 @@
   top: 25%;
   left: 25%;
   padding: 20px;
-  z-index: 9999;
+  z-index: 9998;
   color: white;
   text-align: center;
   background-color: #444;
@@ -67,7 +67,7 @@
 .downPageArrrow {
   position: absolute;
   top: 110%;
-  left: 47%;
+  left: 24vw;
   color: white;
   background-color: #444;
   border-radius: 25px;
@@ -99,6 +99,6 @@
   .downPageArrrow {
     position: absolute;
     top: 100%;
-    left: 43%;
+    left: 33vw;
   }
 }

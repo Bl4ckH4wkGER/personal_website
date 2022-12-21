@@ -6,17 +6,9 @@
   text-decoration: underline orange;
 }
 
-.work {
-  padding-bottom: 10vh;
-}
-.education {
-  padding-bottom: 10vh;
-}
-.certificates {
-  padding-bottom: 10vh;
-}
-.skills {
-  padding-bottom: 10vh;
+.divider {
+  border: 1px solid #444;
+  margin: 5vh 5vw 10vh 5vw;
 }
 
 .companyLinks {
@@ -29,6 +21,24 @@
   text-decoration: underline;
 }
 
+.progress-bar {
+  background-color: orange;
+  color: white;
+}
+
+.skillsCell {
+  padding: 10px;
+}
+
 /*
-  Add more custom CSS here
+  Mobile responsive design below
 */
+
+@media screen and (max-width: 600px) {
+  .resumeHeadings {
+    padding-bottom: 10px;
+  }
+  .divider {
+    margin: 5vw;
+  }
+}
