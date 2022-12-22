@@ -25,10 +25,10 @@ function Resume() {
         justifyContent="center"
         alignItems={{ xs: 'center', sm: 'flex-start', md: 'flex-start' }}
         className="resumeContent">
-        <Grid xs={3}>
+        <Grid item xs={3}>
           <h2 className="resumeHeadings">Work</h2>
         </Grid>
-        <Grid xs={9}>
+        <Grid item xs={9}>
           <Box className="work">
             <h3>Product Manager</h3>
             <div>
@@ -195,11 +195,10 @@ function Resume() {
         justifyContent="center"
         alignItems={{ xs: 'center', sm: 'flex-start', md: 'flex-start' }}
         className="resumeContent">
-        <Grid xs={3}>
-          {' '}
+        <Grid item xs={3}>
           <h2 className="resumeHeadings">Education</h2>
         </Grid>
-        <Grid xs={9}>
+        <Grid item xs={9}>
           <Box className="education ">
             <h3>Master of Arts</h3>
             <div>
@@ -253,10 +252,10 @@ function Resume() {
         justifyContent="center"
         alignItems={{ xs: 'center', sm: 'flex-start', md: 'flex-start' }}
         className="resumeContent">
-        <Grid xs={3}>
+        <Grid item xs={3}>
           <h2 className="resumeHeadings">Certificates</h2>
         </Grid>
-        <Grid xs={9}>
+        <Grid item xs={9}>
           <Box className="certificates">
             <h3>Certified Scrum Product Owner</h3>
             <div>
@@ -369,10 +368,10 @@ function Resume() {
         justifyContent="center"
         alignItems={{ xs: 'center', sm: 'flex-start', md: 'flex-start' }}
         className="resumeContent">
-        <Grid xs={3}>
+        <Grid item xs={3}>
           <h2 className="resumeHeadings">Skills</h2>
         </Grid>
-        <Grid xs={9}>
+        <Grid item xs={9}>
           <Box className="skills">
             <Grid container direction={{ xs: 'column', sm: 'column', md: 'row' }}>
               <Grid item xs={12} sm={12} md={6} className="skillsCell">

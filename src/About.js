@@ -43,7 +43,7 @@ function About() {
               <b>Location:</b> Poulsbo, WA
             </li>
             <li>
-              <b>Study:</b> Friedrich Schiller University
+              <b>Study:</b> Friedrich Schiller University Jena
             </li>
             <li>
               <b>Languages:</b> German, English, French

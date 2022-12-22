@@ -9,8 +9,30 @@ function Portfolio() {
     <Container id="portfolio">
       <Box>
         <h2>Portfolio</h2>
-        <h3>Web projects</h3>
+        <h3 className="portfolioHeadings">Web projects</h3>
         <ul>
+          <li>
+            Bulk add GC codes to Lists (
+            <a
+              className="portfolioLink"
+              href="https://forums.geocaching.com/GC/index.php?/topic/357654-release-notes-website-bulk-add-gc-codes-to-lists-july-29-2020/"
+              target={'_blank'}
+              rel="noreferrer">
+              release notes
+            </a>
+            )
+          </li>
+          <li>
+            Solved coordinates and Update Coordinates (
+            <a
+              className="portfolioLink"
+              href="https://forums.geocaching.com/GC/index.php?/topic/359009-release-notes-website-solved-coordinates-and-update-coordinates-october-19-2020/"
+              target={'_blank'}
+              rel="noreferrer">
+              release notes
+            </a>
+            )
+          </li>
           <li>
             Souvenir sorting (
             <a
@@ -64,7 +86,7 @@ function Portfolio() {
             )
           </li>
         </ul>
-        <h3>Platform projects</h3>
+        <h3 className="portfolioHeadings">Platform projects</h3>
         <ul>
           <li>
             Event calendar retirement (
@@ -122,7 +144,7 @@ function Portfolio() {
             )
           </li>
         </ul>
-        <h3>Marketing campaigns</h3>
+        <h3 className="portfolioHeadings">Marketing campaigns</h3>
         <ul>
           <li>
             Reach the Peak (
@@ -147,7 +169,7 @@ function Portfolio() {
             )
           </li>
         </ul>
-        <h3>Business development campaigns</h3>
+        <h3 className="portfolioHeadings">Business development campaigns</h3>
         <ul>
           <li>
             Texas Instruments #SpreadMathLove (

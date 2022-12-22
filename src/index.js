@@ -8,7 +8,7 @@ import Intro from './Intro';
 import About from './About';
 import Resume from './Resume';
 import Portfolio from './Portfolio';
-import Testemonial from './Testemonial';
+import Testemonials from './Testemonials';
 import Contact from './Contact';
 import Footer from './Footer';
 
@@ -20,7 +20,7 @@ root.render(
     <About />
     <Resume />
     <Portfolio />
-    <Testemonial />
+    <Testemonials />
     <Contact />
     <Footer />
   </React.StrictMode>

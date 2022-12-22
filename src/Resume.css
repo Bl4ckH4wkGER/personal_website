@@ -34,7 +34,7 @@
   Mobile responsive design below
 */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
   .resumeHeadings {
     padding-bottom: 10px;
   }

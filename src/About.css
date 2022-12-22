@@ -30,12 +30,12 @@
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
   #about {
     flex-direction: column;
   }
   .aboutImage {
-    width: 100%;
+    width: 50%;
     padding-bottom: 10px;
   }
   .desktopClifton {

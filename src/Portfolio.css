@@ -1,5 +1,11 @@
 #portfolio {
   padding-top: 10vh;
+  width: 80vw;
+  height: 100vh;
+}
+
+.portfolioHeadings {
+  text-decoration: underline orange;
 }
 
 .portfolioLink {
@@ -12,6 +18,9 @@
   text-decoration: underline;
 }
 
-/*
-  Add more custom CSS here
-*/
+@media screen and (max-width: 1024px) {
+  #portfolio {
+    height: unset;
+    padding-bottom: 20px;
+  }
+}

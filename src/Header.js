@@ -23,8 +23,8 @@ function Header() {
         </a>
       </Button>
       <Button>
-        <a className="headAnchorLink" href="#testemonial">
-          Testemonial
+        <a className="headAnchorLink" href="#testemonials">
+          Testemonials
         </a>
       </Button>
       <Button>

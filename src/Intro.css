@@ -21,9 +21,9 @@
 
 .introText {
   position: absolute;
-  width: 50%;
-  top: 25%;
-  left: 25%;
+  width: 50vw;
+  top: 25vh;
+  left: 25vw;
   padding: 20px;
   z-index: 9998;
   color: white;
@@ -65,40 +65,28 @@
 }
 
 .downPageArrrow {
-  position: absolute;
-  top: 110%;
-  left: 24vw;
   color: white;
-  background-color: #444;
-  border-radius: 25px;
-  border: 2px solid;
   padding: 10px;
+  z-index: 9998;
 }
 
 .downPageArrrow:hover {
   color: orange;
-  border-radius: 25px;
-  border: 2px solid orange;
 }
 
 /*
   Mobile responsive design below
 */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
   .heroImage {
     height: 100vh;
     z-index: 999;
   }
 
   .introText {
-    width: 80%;
-    top: 15%;
-    left: 10%;
-  }
-  .downPageArrrow {
-    position: absolute;
-    top: 100%;
-    left: 33vw;
+    width: 80vw;
+    top: 15vh;
+    left: 10vw;
   }
 }
