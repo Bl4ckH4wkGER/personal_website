@@ -1,7 +1,7 @@
 #portfolio {
   padding-top: 10vh;
   width: 80vw;
-  height: 100vh;
+  height: 110vh;
 }
 
 .portfolioHeadings {
@@ -20,7 +20,8 @@
 
 @media screen and (max-width: 1024px) {
   #portfolio {
+    padding-top: 10%;
     height: unset;
-    padding-bottom: 20px;
+    padding-bottom: 10%;
   }
 }

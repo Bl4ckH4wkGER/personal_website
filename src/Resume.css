@@ -35,6 +35,9 @@
 */
 
 @media screen and (max-width: 1024px) {
+  #resume {
+    padding-top: 10%;
+  }
   .resumeHeadings {
     padding-bottom: 10px;
   }

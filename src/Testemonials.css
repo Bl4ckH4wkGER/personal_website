@@ -1,26 +1,29 @@
 #testemonials {
   padding-top: 10vh;
-  width: 50vw;
-  height: 50vh;
+  width: 50%;
   color: white;
   background-color: #444;
   border-radius: 25px;
 }
 
 .testemonialText {
-  background-color: pink;
+  height: 20vh;
+}
+
+.tabsSection {
+  padding: 10px;
+}
+
+.MuiTab-root {
+  color: white !important;
 }
 
 .MuiTabs-indicator {
-  background: orange;
+  background: orange !important;
 }
 
-.css-1t4lqmc-MuiButtonBase-root-MuiTab-root {
-  color: white;
-}
-
-.css-1t4lqmc-MuiButtonBase-root-MuiTab-root.Mui-selected {
-  color: orange;
+.Mui-selected {
+  color: orange !important;
 }
 
 /*
@@ -28,7 +31,11 @@
 */
 
 @media screen and (max-width: 1024px) {
-  /* .MuiTabs-scroller {
-    left: unset;
-  } */
+  #testemonials {
+    padding-top: 10%;
+    width: 80%;
+  }
+  .testemonialText {
+    height: auto;
+  }
 }

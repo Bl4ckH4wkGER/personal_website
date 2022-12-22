@@ -373,8 +373,8 @@ function Resume() {
         </Grid>
         <Grid item xs={9}>
           <Box className="skills">
-            <Grid container direction={{ xs: 'column', sm: 'column', md: 'row' }}>
-              <Grid item xs={12} sm={12} md={6} className="skillsCell">
+            <Grid container direction={{ xs: 'column', sm: 'row', md: 'row' }}>
+              <Grid item xs={12} sm={6} md={6} className="skillsCell">
                 <h3>Frontend development</h3>
                 React
                 <ProgressBar now={80} />
@@ -383,7 +383,7 @@ function Resume() {
                 CSS
                 <ProgressBar now={40} />
               </Grid>
-              <Grid item xs={12} sm={12} md={6} className="skillsCell">
+              <Grid item xs={12} sm={6} md={6} className="skillsCell">
                 <h3>Tools</h3>
                 Jira
                 <ProgressBar now={90} />
@@ -392,7 +392,7 @@ function Resume() {
                 Miro
                 <ProgressBar now={70} />
               </Grid>
-              <Grid item xs={12} sm={12} md={6} className="skillsCell">
+              <Grid item xs={12} sm={6} md={6} className="skillsCell">
                 <h3>Agile</h3>
                 Product Ownership
                 <ProgressBar now={90} />
@@ -401,7 +401,7 @@ function Resume() {
                 Kanban
                 <ProgressBar now={70} />
               </Grid>
-              <Grid item xs={12} sm={12} md={6} className="skillsCell">
+              <Grid item xs={12} sm={6} md={6} className="skillsCell">
                 <h3>Quantitative</h3>
                 Tableau
                 <ProgressBar now={80} />
@@ -410,7 +410,7 @@ function Resume() {
                 Google Analytics
                 <ProgressBar now={60} />
               </Grid>
-              <Grid item xs={12} sm={12} md={6} className="skillsCell">
+              <Grid item xs={12} sm={6} md={6} className="skillsCell">
                 <h3>Qualitative</h3>
                 Field research
                 <ProgressBar now={90} />
@@ -419,7 +419,7 @@ function Resume() {
                 User testing
                 <ProgressBar now={80} />
               </Grid>
-              <Grid item xs={12} sm={12} md={6} className="skillsCell">
+              <Grid item xs={12} sm={6} md={6} className="skillsCell">
                 <h3>Planning</h3>
                 Product roadmap
                 <ProgressBar now={80} />
