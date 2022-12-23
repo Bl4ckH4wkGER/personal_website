@@ -2,6 +2,19 @@
   padding-top: 10vh;
 }
 
+.contactHeading {
+  display: flex;
+  align-items: center;
+}
+
+.contactText {
+  padding: 20px;
+}
+
+.contactLinks {
+  padding: 10px 20px 10px 20px;
+}
+
 .contactLinks {
   color: orange;
   text-decoration: none;
