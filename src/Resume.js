@@ -332,7 +332,7 @@ function Resume() {
                     rel="noreferrer noopener">
                     Scrum Alliance
                   </a>{' '}
-                  - Novenber 2020
+                  - November 2020
                 </p>
               </Stack>
               <p> </p>

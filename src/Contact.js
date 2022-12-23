@@ -22,7 +22,7 @@ function Contact() {
           <p>Thanks for stopping by!</p>
           <p>
             Did something spark your interest? Don&apos;t hesitate to reach out. I&apos;m always
-            availble to talk Product Management, Agile, or other shared interests.
+            available to talk Product Management, Agile, or other shared interests.
           </p>
         </Grid>
         <Grid item className="contactLinks" xs={6}>

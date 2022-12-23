@@ -36,13 +36,13 @@ function introSection() {
       <Box className="introText">
         <h1>I&apos;m Sven Otto.</h1>
         <p>
-          I&apos;m a greater-Seattle based Product Manager currently working at Geocaching HQ. My
-          focuses is on migrating our web offering to a modern tech-stack and inspiring outdoor
+          I&apos;m a greater-Seattle based <b>Product Manager</b> currently working at Geocaching
+          HQ. My focus is on migrating our web offering to a modern tech-stack and inspiring outdoor
           adventure, exploration, and community.
         </p>
         <p>
-          In my free time time, you can catch me weightlifting, exploring the great Pacific
-          Northwest, and working on car or house projects.
+          In my free time time, you can catch me <b>weightlifting</b>, exploring the great{' '}
+          <b>Pacific Northwest</b>, and working on <b>car or house projects</b>.
         </p>
         <div>
           <Stack className="introStacks" direction="row">
