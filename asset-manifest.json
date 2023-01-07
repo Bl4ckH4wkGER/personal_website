@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/personal_website/static/css/main.a50bb14e.css",
-    "main.js": "/personal_website/static/js/main.2b701372.js",
+    "main.js": "/personal_website/static/js/main.bc4309c3.js",
     "static/media/hero.jpg": "/personal_website/static/media/hero.fbf2340517525ffb364b.jpg",
     "static/media/profile.jpg": "/personal_website/static/media/profile.4f1691ec01a76e5ee430.jpg",
     "static/media/FSU.jpeg": "/personal_website/static/media/FSU.e0a398284e6b8ee9876d.jpeg",
     "static/media/GameThinkingAcademy.jpeg": "/personal_website/static/media/GameThinkingAcademy.c4dd3f44b7cbec7f57b8.jpeg",
     "index.html": "/personal_website/index.html",
     "main.a50bb14e.css.map": "/personal_website/static/css/main.a50bb14e.css.map",
-    "main.2b701372.js.map": "/personal_website/static/js/main.2b701372.js.map"
+    "main.bc4309c3.js.map": "/personal_website/static/js/main.bc4309c3.js.map"
   },
   "entrypoints": [
     "static/css/main.a50bb14e.css",
-    "static/js/main.2b701372.js"
+    "static/js/main.bc4309c3.js"
   ]
 }
