@@ -25,7 +25,7 @@ function Contact() {
             available to talk Product Management, Agile, or other shared interests.
           </p>
         </Grid>
-        <Grid item className="contactLinks" xs={6}>
+        <Grid item xs={6}>
           <Stack direction="column">
             <a className="contactLinks" href="mailto:svenotto3110@gmail.com">
               <EmailIcon />
