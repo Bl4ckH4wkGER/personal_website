@@ -43,7 +43,7 @@ function About() {
               <b>Location:</b> Poulsbo, WA
             </li>
             <li>
-              <b>Study:</b> Friedrich Schiller University Jena
+              <b>Education:</b> B.A , M.A, CSPO, CSM
             </li>
             <li>
               <b>Languages:</b> German, English, French
@@ -143,9 +143,6 @@ function About() {
                   </li>
                 </ul>
               </span>
-            </li>
-            <li>
-              <b>Employment:</b> Geocaching HQ
             </li>
           </ul>
         </div>

@@ -24,7 +24,7 @@ function Header() {
       </Button>
       <Button>
         <a className="headAnchorLink" href="#testemonials">
-          Testemonials
+          Testimonials
         </a>
       </Button>
       <Button>
