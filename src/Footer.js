@@ -34,7 +34,7 @@ function Footer() {
           </a>
         </Stack>
         <p>
-          <b>© Copyright 2022 Sven Otto</b>
+          <b>© Copyright 2022-2023 Sven Otto</b>
         </p>
       </div>
     </Box>

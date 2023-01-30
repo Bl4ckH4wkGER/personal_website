@@ -70,7 +70,7 @@ export default function BasicTabs() {
         <div className="testemonialText">
           <p>
             <i>
-              &quot; Signal award to Sven for working tirelessly with Engineering to update and
+              &quot;Signal award to Sven for working tirelessly with Engineering to update and
               improve the engineering triage process. We appreciate your transparency and creativity
               in identifying possible solutions and communicating these changes to the entire
               company. We love those videos!&quot;
@@ -85,7 +85,7 @@ export default function BasicTabs() {
         <div className="testemonialText">
           <p>
             <i>
-              &quot; Signal award to Sven for running through a troubleshooting training with the
+              &quot;Signal award to Sven for running through a troubleshooting training with the
               Customer Service team to help us identify bugs in a more efficient way for everyone
               involved. The team really appreciates your approach to training and additional support
               you provide us. Thank you for always having us in your thoughts.&quot;
@@ -100,7 +100,7 @@ export default function BasicTabs() {
         <div className="testemonialText">
           <p>
             <i>
-              &quot; Signal award to Sven for the successful launch of the Locationless Cache
+              &quot;Signal award to Sven for the successful launch of the Locationless Cache
               GC8NEAT. You saw an opportunity for a win-win-win, for the community, the company, and
               the Earth. And you worked hard to get the support for this concept, and collaborated
               with many HQ staff to make a smooth launch. Thanks for your tenacity and
@@ -116,7 +116,7 @@ export default function BasicTabs() {
         <div className="testemonialText">
           <p>
             <i>
-              &quot; I feel so lucky to have gotten to attend a German Giga Event with you. Your
+              &quot;I feel so lucky to have gotten to attend a German Giga Event with you. Your
               knowledge of the game & passion for the community are admirable. I was constantly in
               awe of how you showed up for every geocacher and made personal connections with
               everyone you talked with. The world needs more Svens!&quot;
