@@ -122,7 +122,7 @@ function Portfolio() {
             )
           </li>
           <li>
-            Pocket Querie API (
+            Pocket Query API (
             <a
               className="portfolioLink"
               href="https://forums.geocaching.com/GC/index.php?/topic/382502-release-notes-website-pocket-query-api-october-18-2022/"
