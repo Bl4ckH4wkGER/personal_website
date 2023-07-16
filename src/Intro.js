@@ -36,9 +36,9 @@ function introSection() {
       <Box className="introText">
         <h1>I&apos;m Sven Otto.</h1>
         <p>
-          I&apos;m a greater-Seattle based <b>Product Manager</b> currently working at Geocaching
-          HQ. My focus is on migrating our web offering to a modern tech-stack and inspiring outdoor
-          adventure, exploration, and community.
+          I&apos;m a greater-Seattle based <b>Product Manager</b> currently working at the Allen Institute
+          for Brain Science. My focus is on expanding our platform service snfrastructure and enabling scientific 
+          takeholders through high performing data storage and compute products.
         </p>
         <p>
           In my free time time, you can catch me <b>weightlifting</b>, exploring the great{' '}

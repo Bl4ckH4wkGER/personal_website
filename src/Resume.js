@@ -13,6 +13,7 @@ import FSU from './images/FSU.jpeg';
 import GA from './images/GA.jpeg';
 import GameThinkingAcademy from './images/GameThinkingAcademy.jpeg';
 import GeocachingHQ from './images/GeocachingHQ.jpeg';
+import AIBS from './images/AIBS.jpeg';
 import ScrumAlliance from './images/ScrumAlliance.jpeg';
 import UW from './images/UW.jpeg';
 
@@ -30,6 +31,32 @@ function Resume() {
         </Grid>
         <Grid item xs={9}>
           <Box className="work">
+            <h3>Product Manager II</h3>
+            <div>
+              <Stack direction="row" spacing={2}>
+                <Avatar
+                  alt="Allen Institute for Brain Science icon"
+                  src={AIBS}
+                  sx={{ width: 24, height: 24 }}
+                />
+                <p>
+                  <a
+                    className="companyLinks"
+                    href="https://alleninstitute.org/division/brain-science/"
+                    target="_blank"
+                    rel="noreferrer noopener">
+                    Allen Institute for Brain Science
+                  </a>{' '}
+                  - Apr 2023 to Present
+                </p>
+              </Stack>
+              <ul>
+                <li>
+                  Act as Product Manager for two engineering teams - one internal informatics team
+                  and one full-stack AWS ProServe team
+                </li>
+              </ul>
+            </div>
             <h3>Product Manager</h3>
             <div>
               <Stack direction="row" spacing={2}>
@@ -46,18 +73,19 @@ function Resume() {
                     rel="noreferrer noopener">
                     Geocaching HQ
                   </a>{' '}
-                  - Jul 2022 to Present
+                  - Jul 2022 to Apr 2023
                 </p>
               </Stack>
               <ul>
                 <li>
-                  Act as Product Manager/Owner and Scrum Master for full-stack web team in a Scrum
-                  environment
-                </li>
-                <li>
                   Replaced blackbox-like local storage API with modern, scalable, and maintainable
                   cloud storage API
                 </li>
+                <li>
+                  Spearheaded new coordinate input experience and parser, trippled supported formats
+                  and doubled entry methods.
+                </li>
+                <li>Retired two legacy logging systems, reduced duplicate pages by another 17%</li>
               </ul>
             </div>
             <h3>Associate Product Manager</h3>
